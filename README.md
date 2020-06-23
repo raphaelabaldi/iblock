@@ -2,7 +2,7 @@
 Projeto de TCC, um aplicativo que aluguel de quadras.
 
 Objetivos:
-Facilitador para o aluguel de quadras, o aplicativo vai juntar a interação entre o usuário e o locatário da propriedade numa interface única, facilitando assim a interação entre ambos.
+Facilitador o aluguel de quadras, o aplicativo vai juntar a interação entre o usuário e o locatário da propriedade numa interface única. As interações entre o usuário e o locatário serão facilitadas de forma à centralizar as informações para ambos, juntando ambas as partes interessadas no mesmo lugar.
 
 
 Features:

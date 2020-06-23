@@ -1,35 +1,29 @@
-import { KeyboardAvoidingView, TextInput, TouchableOpacity } from "react-native";
-
 import React from 'react';
-import { View, Text } from 'react-native';
-import { styles } from './src/styles'
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import Home from './src/components/Home'
+import Login from './src/components/Login'
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <KeyboardAvoidingView style={styles.background}>
-      <View style={styles.container}>
-        <TextInput
-        style={styles.input}
-        placeholder="Email"
-        autoCorrect={false}
-        onChangeText={()=> {}}
-        />   
-
-        <TextInput
-        style={styles.input}
-        placeholder="Senha"
-        autoCorrect={false}
-        onChangeText={()=> {}}
+    <NavigationContainer>
+      <Stack.Navigator 
+      initialRouteName="Login"
+      screenOptions={{headerShown: true}}
+      >
+        <Stack.Screen
+          name="Home"
+          component={Home}
         />
-
-        <TouchableOpacity style={styles.btnLogin}>
-          <Text style={styles.txtLogin}>Login</Text>
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Text style={styles.txtRegister}>Criar uma conta</Text>
-        </TouchableOpacity>
-
-      </View>
-    </KeyboardAvoidingView>
-  )
+        <Stack.Screen
+          name="Login"
+          component={Login}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }

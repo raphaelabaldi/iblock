@@ -20,3 +20,9 @@ Features:
 [] Interface interativa para personalização do anúncio da quadra
 [] Feature de boost de anúncio (pagar para sua quadra aparecer nos destaques do app)
 [] Chat interativo com o usuário
+
+
+Paleta de cores:
+#87C8E1
+#88E9AC
+#929FE6

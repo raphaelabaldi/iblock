@@ -1,4 +1,4 @@
-### iBlock
+# iBlock
 Projeto de TCC, um aplicativo que aluguel de quadras.
 
 Objetivos:
@@ -7,7 +7,7 @@ Facilitador o aluguel de quadras, o aplicativo vai juntar a interação entre o 
 
 Features:
 
-# Para o usuário
+### Para o usuário
 
 - Uma interface de cadastro e login
 - Tela interativa com uma lista de quadras disponível para aluguel
@@ -15,7 +15,7 @@ Features:
 - Chat interativo com o locatário
 - Efetuar o pagamento do aluguel da quadra pelo app.
 
-# Para o locatário
+### Para o locatário
 
 - Uma interface de cadastro e login
 - Uma tela para cadastro da quadra
@@ -24,7 +24,7 @@ Features:
 - Chat interativo com o usuário
 
 
-# Getting Started:
+### Getting Started:
 
 Para rodar esse projeto local, você terá que instalar o expo-cli através do npm (se não tiver o npm, faça download através do site [NodeJS](nodejs.org))
 

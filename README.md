@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="" alt="iBlock" width="120">
+  <img src="(assets/icon.png?raw=true) alt="iBlock" width="100">
 <br>
 <br>
 iBlock
@@ -33,8 +33,8 @@ Facilitador o aluguel de quadras, o aplicativo vai juntar a interação entre o 
 - Feature de boost de anúncio (pagar para sua quadra aparecer nos destaques do app)
 - Chat interativo com o usuário
 
-- ⚛️ **React Native**
-- 💹 **Node Js**
+⚛️ **React Native**
+💹 **Node Js**
 
 ## Getting started
 

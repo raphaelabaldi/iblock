@@ -1,7 +1,3 @@
-<h1 align="center">
-<br>
-  <img src="(assets/icon.png?raw=true) alt="iBlock" width="100">
-<br>
 <br>
 iBlock
 </h1>

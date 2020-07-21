@@ -1,11 +1,21 @@
-# iBlock
-Projeto de TCC, um aplicativo que aluguel de quadras.
+<h1 align="center">
+<br>
+  <img src="" alt="iBlock" width="120">
+<br>
+<br>
+iBlock
+</h1>
 
-Objetivos:
+<p align="center">Projeto de TCC, um aplicativo que aluguel de quadras.</p>
+
+<p align="center">
+  Objetivos:
 Facilitador o aluguel de quadras, o aplicativo vai juntar a interação entre o usuário e o locatário da propriedade numa interface única. As interações entre o usuário e o locatário serão facilitadas de forma à centralizar as informações para ambos, juntando ambas as partes interessadas no mesmo lugar.
+</p>
 
+## Features
 
-Features:
+[//]: # "Add the features of your project here:"
 
 ### Para o usuário
 
@@ -23,12 +33,15 @@ Features:
 - Feature de boost de anúncio (pagar para sua quadra aparecer nos destaques do app)
 - Chat interativo com o usuário
 
+- ⚛️ **React Native**
+- 💹 **Node Js**
 
-### Getting Started:
+## Getting started
 
-Para rodar esse projeto local, você terá que instalar o expo-cli através do npm (se não tiver o npm, faça download através do site [NodeJS](nodejs.org))
+Para rodar esse projeto local, você terá que instalar o expo-cli através do npm (se não tiver o npm, faça download através do site [NodeJS](https://nodejs.org))
 
 rode no seu console os seguintes comandos:
+
 ```
 npm install -g expo-cli
 yarn add expo
@@ -37,7 +50,8 @@ expo start
 
 Faça download de algum emulador ou emule no seu próprio device a partir do código QR que sera gerado no console
 
->Paleta de cores:
+> Paleta de cores:
+>
 > - #87C8E1
 > - #88E9AC
 > - #929FE6

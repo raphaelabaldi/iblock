@@ -3,7 +3,7 @@
 iBlock
 </h1>
 
-<p align="center">Projeto de TCC, um aplicativo que aluguel de quadras.</p>
+<p align="center">Projeto de TCC, um aplicativo de aluguel de quadras.</p>
 
 <p align="center">
   Objetivos:
